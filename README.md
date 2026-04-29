@@ -14,18 +14,20 @@
 
 ## 🧱 Architecture
 
-GitHub (code push)
+```text
+GitHub (Code Push)
         ↓
 Webhook Trigger
         ↓
 Jenkins Master (GCP)
         ↓
 Parallel Execution
-   ├── Ubuntu (GCP)
-   ├── CentOS (GCP)
-   └── Amazon Linux (AWS)
+        ├── Ubuntu Agent (GCP)
+        ├── CentOS Agent (GCP)
+        └── Amazon Linux Agent (AWS)
         ↓
-Docker Build → Artifact
+         → Artifact
+```
 
 ![Architecture](architecture/architecture.png)
 
