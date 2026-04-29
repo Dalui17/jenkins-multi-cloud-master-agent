@@ -118,7 +118,14 @@ pipeline {
 
 ## 📸 Screenshots
 
-(Add Jenkins UI screenshots here)
+### 🔹 Jenkins Dashboard & Nodes
+
+![Jenkins Dashboard](screenshots/jenkins-ui.png)
+
+### 🔹 Pipeline Execution
+
+![Pipeline Execution](screenshots/jenkins-ui.png)
+
 
 ---
 ## 💡 Why this project?
