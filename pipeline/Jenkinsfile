@@ -1,0 +1,70 @@
+🚀 ✅ Final Pipeline (tests ALL agents)
+
+
+`````````groovy````````````
+pipeline {
+    agent none
+
+    stages {
+
+        stage('Ubuntu Agent (GCP)') {
+            agent { label 'linux' }
+            steps {
+                sh '''
+                echo "===== UBUNTU AGENT ====="
+                hostname
+                whoami
+                uname -a
+                '''
+            }
+        }
+
+        stage('CentOS Agent (GCP)') {
+            agent { label 'centos' }
+            steps {
+                sh '''
+                echo "===== CENTOS AGENT ====="
+                hostname
+                whoami
+                uname -a
+                '''
+            }
+        }
+
+        stage('AWS Amazon Linux Agent') {
+            agent { label 'aws' }
+            steps {
+                sh '''
+                echo "===== AWS AGENT ====="
+                hostname
+                whoami
+                uname -a
+                '''
+            }
+        }
+    }
+}
+
+``````````````````````````````
+
+
+🎯 Output Example
+
+===== UBUNTU AGENT =====
+ubuntu-agent
+anir_dalui
+Linux ubuntu ...
+
+===== CENTOS AGENT =====
+centos-agent
+anir_dalui
+Linux centos ...
+
+===== AWS AGENT =====
+ip-172-31-5-136
+ec2-user
+Linux amazon ...
+
+
+
+
