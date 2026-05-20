@@ -3,6 +3,7 @@
 ![OS](https://img.shields.io/badge/OS-Ubuntu%20%7C%20CentOS%20%7C%20AmazonLinux-green)
 ![CI/CD](https://img.shields.io/badge/CI/CD-Pipeline-orange)
 
+
 # 🚀 Multi-Cloud Jenkins Master-Agent Architecture
 
 <p align="center">
@@ -12,7 +13,9 @@
 
 ---
 
+
 ## 🧱 Architecture
+
 
 ```text
 GitHub (Code Push)
@@ -29,7 +32,9 @@ Parallel Execution
          → Artifact
 ```
 
+
 ![Architecture](architecture/architecture.png)
+
 
 
 ---
@@ -95,6 +100,7 @@ pipeline {
 }
 ```
 
+
 ---
 
 ## 🔐 Security
@@ -116,11 +122,13 @@ pipeline {
 
 ---
 
+
 ## 📸 Screenshots
 
 ### 🔹 Jenkins Dashboard & Pipeline Execution
 
 ![Jenkins Dashboard](screenshots/jenkins-ui.png)
+
 
 ---
 ## 💡 Why this project?
@@ -131,6 +139,7 @@ This project simulates a **real-world enterprise setup** with:
 - Distributed execution
 - Multi-cloud integration
 - OS-level diversity
+
 
 ## 🧠 Key Learnings
 
