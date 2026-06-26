@@ -1,5 +1,6 @@
 # CentOS Agent Setup (GCP)
 
+
 ## Step 1: Install Java
 
 ```bash
