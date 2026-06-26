@@ -1,5 +1,6 @@
 # Jenkins Master Setup (GCP - Ubuntu)
 
+
 ## Step 1: Install Java
 
 ```bash
