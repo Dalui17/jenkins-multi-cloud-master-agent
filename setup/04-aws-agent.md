@@ -1,5 +1,6 @@
 # AWS Agent Setup (Amazon Linux)
 
+
 ## Step 1: Launch EC2
 
 * OS: Amazon Linux
